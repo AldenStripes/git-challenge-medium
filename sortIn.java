@@ -3,7 +3,7 @@ import java.util.*;
 import java.io.*;
 public class sortIn {
 	public static void main(String[] args) throws IOException{
-		File file = new File("C:\\Users\\Alden\\eclipse-workspace\\Personal Project\\src\\Other\\in.txt");
+		File file = new File("in.txt");
 		Scanner sc = new Scanner(file);
 		String data = sc.nextLine();
 		String[] split = data.split(" ");
